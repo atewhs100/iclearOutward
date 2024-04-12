@@ -1,0 +1,34 @@
+package com.test;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class DuplicateCharacterInString {
+
+	public static void main(String[] args) {
+
+		duplicateCharInString("codedecode");
+	}
+
+	private static void duplicateCharInString(String value) {
+
+		HashSet<Character> hs = new HashSet<Character>();
+		char[] charString = value.toCharArray();
+		//char[] duplicateCharacter = new char[value.length()];
+		HashSet<Character> ds = new HashSet<>();
+
+		for (char c : charString) {
+			if (hs.contains(c)) {
+				ds.add(c);
+			}else {
+				hs.add(c);
+			}
+		}
+		
+	ds.stream().forEach(c-> System.out.println(c));
+		
+	}
+
+}

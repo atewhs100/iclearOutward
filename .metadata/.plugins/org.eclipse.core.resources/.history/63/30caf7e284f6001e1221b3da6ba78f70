@@ -1,0 +1,25 @@
+package com.strivers.A2Z.countdigits;
+
+import java.util.List;
+
+public class PrintAllDivisors {
+
+	public static void main(String[] args) {
+
+		int number = 36;
+		PrintAllDivisors.findAllDivisors(number);
+	}
+
+	private static void findAllDivisors(int number) {
+
+		int divisor = number;
+		while (divisor > 0) {
+
+			if (number / divisor == 0) {
+				System.out.println(divisor + " ,");
+			}
+			divisor--;
+
+		}
+	}
+}

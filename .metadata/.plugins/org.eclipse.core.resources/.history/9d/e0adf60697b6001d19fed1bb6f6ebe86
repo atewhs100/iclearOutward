@@ -1,0 +1,19 @@
+package com.leetcode;
+
+public class StringContains {
+
+	public static boolean rotateString(String s, String goal) {
+
+		String totalS = s + s;
+		if (totalS.contains(goal)) {
+			return true;
+		}
+		return false;
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println(rotateString("abcde", "cdeab"));
+	}
+
+}

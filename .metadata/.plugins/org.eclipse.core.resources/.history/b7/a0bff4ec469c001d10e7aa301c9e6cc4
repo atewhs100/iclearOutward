@@ -1,0 +1,9 @@
+package com.utils.main;
+
+public class Person {
+
+	public static void main(String[] args) {
+		MilkMan man = null;
+		MilkMan.hello();
+	}
+}

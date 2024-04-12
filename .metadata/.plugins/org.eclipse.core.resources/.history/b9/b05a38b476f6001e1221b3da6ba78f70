@@ -1,0 +1,23 @@
+package com.strivers.A2Z.countdigits;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+
+		int number = 123405;
+
+		System.out.println("Digits in Number = " + CountDigits.findCountDigits(number));
+	}
+
+	private static int findCountDigits(int number) {
+
+		int count = 0;
+
+		while (number % 10 != 0) {
+			count++;
+		}
+
+		return count;
+	}
+
+}

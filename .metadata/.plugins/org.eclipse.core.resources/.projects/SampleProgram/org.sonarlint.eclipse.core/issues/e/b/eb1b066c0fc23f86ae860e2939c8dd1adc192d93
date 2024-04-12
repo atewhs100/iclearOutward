@@ -1,0 +1,8 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(çÚ½Ö8Ãèòóµ1HÄbRMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(úÊÇ™ÿÿÿÿÿ8ê•“ôµ1HåbRMAJORZ
+CODE_SMELL
+v
+java:S1659">Declare "c" and all following declarations on a separate line.(ìé±Þþÿÿÿÿ8û›Ÿôµ1HôbRMINORZ
+CODE_SMELL

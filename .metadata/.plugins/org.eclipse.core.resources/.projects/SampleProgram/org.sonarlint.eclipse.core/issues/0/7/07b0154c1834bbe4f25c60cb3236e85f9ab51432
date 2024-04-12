@@ -1,0 +1,16 @@
+
+\
+java:S14814")Remove this unused "next" local variable.(ôÐ¾Â8­ðëš¶1H†fRMINORZ
+CODE_SMELL
+p	java:S106)"9Replace this use of System.out or System.err by a logger.(Ô˜¦Žýÿÿÿÿ8üÅ®™¶1HìeRMAJORZ
+CODE_SMELL
+s	java:S1259"<This block of commented-out lines of code should be removed.(º™Òºýÿÿÿÿ8³€öš¶1H“fRMAJORZ
+CODE_SMELL
+r
+java:S2259B"FA "NullPointerException" could be thrown; "previous" is nullable here.(€„„Â8œÒ€›¶1H›fRMAJORZBUG
+k	java:S106B"9Replace this use of System.out or System.err by a logger.(€„„Â8û½óš¶1HfRMAJORZ
+CODE_SMELL
+s	java:S125K"<This block of commented-out lines of code should be removed.(¢»Çòùÿÿÿÿ8­ðëš¶1HˆfRMAJORZ
+CODE_SMELL
+s	java:S125?"<This block of commented-out lines of code should be removed.(¯”’ˆøÿÿÿÿ8†Û“›¶1H¢fRMAJORZ
+CODE_SMELL

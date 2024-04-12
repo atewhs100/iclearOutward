@@ -1,0 +1,22 @@
+package com.main.java8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FunctionConvertListToMap {
+
+	public static void functionConvertListToMap() {
+		List<Employee> emp = new ArrayList<>();
+		
+		()
+	}
+
+	public static void main(String[] args) {
+		FunctionConvertListToMap.functionConvertListToMap();
+	}
+
+}
+
+class Employee {
+
+}

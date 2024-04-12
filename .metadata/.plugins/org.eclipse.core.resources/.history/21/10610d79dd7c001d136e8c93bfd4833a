@@ -1,0 +1,13 @@
+package com.main.java8;
+
+public class FunctionConvertListToMap {
+
+	public static void FunctionConvertListToMap() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

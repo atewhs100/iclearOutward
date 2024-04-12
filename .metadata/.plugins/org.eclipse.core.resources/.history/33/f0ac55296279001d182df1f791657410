@@ -1,0 +1,26 @@
+package com.java.iclear.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import com.java.iclear.entity.Cheque;
+import com.java.iclear.entity.ChequeStub;
+
+@Repository
+public interface OutwardRepository extends JpaRepository<Cheque, Long> {
+
+	// @Query("select c from Cheque c where c.chequeId = :chequeId")
+	Optional<Cheque> findByChequeId(@Param("chequeId") Long chequeId);
+
+	@Query("select Count(c) from Cheque c where c.chequeId = :chequeId")
+	Optional<Long> count(@Param("chequeId") Long chequeId);
+
+	@Query("select new com.java.iclear.entity.ChequeStub(c.chequeType,c.amount) "
+			+ "from Cheque c where c.chequeId = :id")
+	Optional<ChequeStub> getchequeStub(Long id);
+
+}

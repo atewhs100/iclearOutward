@@ -1,0 +1,8 @@
+
+m	java:S125"<This block of commented-out lines of code should be removed.(øÌ’p8Í•İçµ1HÅ]RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ï˜©â8ğ©£çµ1HÌ]RMAJORZ
+CODE_SMELL
+^
+java:S1481"+Remove this unused "append" local variable.(ÈµŞó8‘—ìçµ1HÍ]RMINORZ
+CODE_SMELL

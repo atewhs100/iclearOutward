@@ -1,0 +1,8 @@
+package com.java.iclear.util;
+
+public class JwtUtility {
+
+	public JwtUtility() {
+	}
+
+}

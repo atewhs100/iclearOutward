@@ -1,0 +1,11 @@
+package com.strivers.A2Z.countdigits;
+
+public class PalindromeOfDigits {
+
+	public static void main(String[] args) {
+
+		int numbers= 132;
+		PalindromeOfDigits.findPalindrome(numbers);
+	}
+
+}

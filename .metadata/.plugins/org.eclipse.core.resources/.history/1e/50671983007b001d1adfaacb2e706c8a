@@ -1,0 +1,20 @@
+package com.java.iclear.util;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RestTemplateUtility {
+
+	@Autowired
+	RestTemplate restTemplate;
+
+	public ResponseEntity<T> get(String uri, Class<T> responseType, Object... code) {
+
+		return restTemplate.exchange(uri, HttpMethod.GET, httpEntity,);
+
+	}
+
+}

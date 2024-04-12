@@ -1,0 +1,22 @@
+package com.strivers.A2Z.countdigits;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+
+		int number = 132;
+		ArmstrongNumber.findArmstrongNumber(number);
+	}
+
+	private static boolean findArmstrongNumber(int number) {
+
+		while (number > 0) {
+
+			number = number % 10;
+
+		}
+
+		return false;
+
+	}
+}

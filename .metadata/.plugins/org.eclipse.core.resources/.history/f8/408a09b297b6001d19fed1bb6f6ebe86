@@ -1,0 +1,20 @@
+package com.leetcode;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MajorityElement {
+
+	public static List<Integer> majorityElement(int[] nums) {
+
+		List<Integer> lst = new ArrayList<>();
+
+		return null;
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,10 @@
+
+o
+java:S1854">Remove this useless assignment to local variable "maxElement".(è‘ÞÈþÿÿÿÿH¥]RMAJORZ
+CODE_SMELL
+[
+java:S1481"/Remove this unused "maxElement" local variable.(‚¡¨÷H¦]RMINORZ
+CODE_SMELL
+O
+java:S1128"$Remove this unused import 'java.io'.(¬›ãDH§]RMINORZ
+CODE_SMELL

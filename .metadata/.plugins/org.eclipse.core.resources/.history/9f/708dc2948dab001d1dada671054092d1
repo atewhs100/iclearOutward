@@ -1,0 +1,18 @@
+package com.utils.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Java8Grouping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<Employee> employeelst = new ArrayList<>();
+
+		employeelst.add(new Employee(1, "shweta"));
+		employeelst.add(new Employee(2, "Pratyush"));
+
+	}
+
+}

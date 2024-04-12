@@ -1,0 +1,19 @@
+
+
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(„ÖÄèHƒ3RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(›µ²ØøÿÿÿÿH‚3RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(áã«ÆùÿÿÿÿH„3RMAJORZ
+CODE_SMELL
+„
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÏÃH€3RMINORZ
+CODE_SMELL
+f	java:S125"<This block of commented-out lines of code should be removed.(­‚Â!H…3RMAJORZ
+CODE_SMELL
+d
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8µÆ×Ûç0H‰3RMINORZ
+CODE_SMELL
+l
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8µÆ×Ûç0H‹3RMINORZ
+CODE_SMELL

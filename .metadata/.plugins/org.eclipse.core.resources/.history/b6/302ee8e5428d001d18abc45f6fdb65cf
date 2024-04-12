@@ -1,0 +1,29 @@
+package com.java.iclear.model;
+
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Size;
+
+public class ChequeModel {
+
+	private String chequeType;
+
+	@Digits(integer = 1, fraction = 1)
+	private Double amount;
+
+	public String getChequeType() {
+		return chequeType;
+	}
+
+	public void setChequeType(String chequeType) {
+		this.chequeType = chequeType;
+	}
+
+	public Double getAmount() {
+		return amount;
+	}
+
+	public void setAmount(Double amount) {
+		this.amount = amount;
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.strivers.A2Z.countdigits;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+
+		int number = 371;
+		System.out.println(ArmstrongNumber.findArmstrongNumber(number));
+	}
+
+	private static boolean findArmstrongNumber(int number) {
+
+		int calculateArmstrong = 0;
+		int duplicateNumber = number;
+
+		while (number > 0) {
+
+			number = number % 10;
+			calculateArmstrong = calculateArmstrong + number * number * number;
+			number = number / 10;
+
+		}
+
+		if (calculateArmstrong == duplicateNumber)
+			return Boolean.TRUE;
+
+		return Boolean.FALSE;
+	}
+}

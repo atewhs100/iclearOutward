@@ -1,0 +1,12 @@
+
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(§Ê°üÿÿÿÿ8ª¿Ãòµ1H¯aRMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(¾¶ıÿÿÿÿ8Ÿ»Öòµ1HaRMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(ŸÆáÚùÿÿÿÿ8á¬Øòµ1H—aRMAJORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(øŸ8ŞèÀòµ1Hé`RMAJORZ
+CODE_SMELL

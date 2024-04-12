@@ -1,0 +1,25 @@
+package com.strivers.A2Z.countdigits;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+
+		int number = 12345;
+
+		int count = findCountDigits(number);
+		System.out.println("Digits in Number = " + count);
+	}
+
+	private static int findCountDigits(int number) {
+
+		int count = 0;
+
+		while (number % 10 != 0) {
+			type type = (type) number.le.nextElement();
+
+		}
+
+		return 0;
+	}
+
+}

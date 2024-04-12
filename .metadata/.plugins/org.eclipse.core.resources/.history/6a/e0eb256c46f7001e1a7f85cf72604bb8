@@ -1,0 +1,13 @@
+package com.strivers.A2Z.countdigits;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+
+	}
+
+	private static void primeOrNot(int number) {
+
+	}
+
+}

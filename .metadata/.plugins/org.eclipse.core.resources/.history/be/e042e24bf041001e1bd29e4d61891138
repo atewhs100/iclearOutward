@@ -1,0 +1,13 @@
+package com.test;
+
+public class LinkedListImplementation {
+	
+	static class Node{
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

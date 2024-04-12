@@ -1,0 +1,16 @@
+package com.strivers.A2Z.recursion;
+
+public class SumOfNumbers {
+
+	public static void main(String[] args) {
+
+		int number = 7;
+		SumOfNumbers.sumOfFirstNNumbers(sum, number);
+
+	}
+
+	private static void sumOfFirstNNumbers(int sum, int number) {
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.leetcode;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSum {
+	
+	/*
+	 * Input: nums = [2,7,11,15], target = 9 Output: [0,1] Explanation: Because
+	 * nums[0] + nums[1] == 9, we return [0, 1].
+	 */
+
+	public static int[] twoSum(int[] nums, int target) {
+
+		Map<Integer, Integer> mp = new HashMap<>();
+		for (int i = 0; i < nums.length; i++) {
+			mp.put(nums[i], i);
+		}
+
+		for (int i = 0; i < nums.length; i++) {
+			int value = target - nums[i];
+
+			if (mp.containsKey(value) && mp.get(value).equals(Integer.valueOf(i)))
+				return new int[] { i, mp.get(value).intValue() };
+		}
+		return new int[] {};
+
+	}
+
+	public static void main(String[] args) {
+		int[] nums = new int[] { 3, 2, 4 };
+		int target = 6;
+		int[] values = twoSum(nums, target);
+		if (values.length > 0) {
+			System.out.println("two indexes =" + values[0] + values[1]);
+		}
+		
+	}
+
+}

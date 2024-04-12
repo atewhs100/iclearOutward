@@ -1,0 +1,15 @@
+package com.strivers.A2Z.countdigits;
+
+public class ReverseOfNumbers {
+
+	public static void main(String[] args) {
+		int number = 12345;
+
+		System.out.println("Digits in Number = " + ReverseOfNumbers.ReverseOfDigits(number));
+	}
+
+	private static String ReverseOfDigits(int number) {
+		return null;
+	}
+
+}

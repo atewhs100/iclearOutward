@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.java.iclear.controller.UserLogicBean.java&apos; to &apos;UserLogicBean1.java&apos;&#x0D;&#x0A;- Original project: &apos;iclearOutward&apos;&#x0D;&#x0A;- Original element: &apos;com.java.iclear.controller.UserLogicBean.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java.iclear.controller.UserLogicBean1.java&apos;" description="Rename compilation unit &apos;UserLogicBean.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.iclear.controller{UserLogicBean.java" name="UserLogicBean1.java" references="false" stamp="1694554114457" version="1.0"/>
+</session>

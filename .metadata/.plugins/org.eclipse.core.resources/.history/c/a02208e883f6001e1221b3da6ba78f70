@@ -1,0 +1,9 @@
+package com.strivers.A2Z.countdigits;
+
+public class PrintAllDivisors {
+
+	public static void main(String[] args) {
+
+	}
+
+}

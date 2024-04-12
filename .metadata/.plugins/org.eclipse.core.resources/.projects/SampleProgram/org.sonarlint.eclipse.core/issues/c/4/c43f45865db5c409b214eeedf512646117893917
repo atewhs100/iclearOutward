@@ -1,0 +1,19 @@
+
+s	java:S125."<This block of commented-out lines of code should be removed.(¼îšìşÿÿÿÿ8õØƒ¡¶1H„hRMAJORZ
+CODE_SMELL
+X
+java:S1481
+"&Remove this unused "n" local variable.(¨ÚƒY8·½Ü ¶1HÃgRMINORZ
+CODE_SMELL
+‰
+java:S1172"VRemove these unused method parameters "values", "firstIndex", "midIndex", "lastIndex".(öÃş±8Ò‰’¡¶1HŒhRMAJORZ
+CODE_SMELL
+·
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(öÃş±8Ò‰’¡¶1HŠhRCRITICALZ
+CODE_SMELL
+g
+java:S1854
+"5Remove this useless assignment to local variable "n".(¨ÚƒY8·½Ü ¶1HÂgRMAJORZ
+CODE_SMELL
+n	java:S1250"<This block of commented-out lines of code should be removed.(°˜¨8õØƒ¡¶1H…hRMAJORZ
+CODE_SMELL

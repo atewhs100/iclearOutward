@@ -1,0 +1,25 @@
+package com.strivers.A2Z.recursion;
+
+public class SumOfNumbers {
+
+	public static void main(String[] args) {
+
+		int number = 3;
+
+		int sum = 0;
+		int i = 1;
+		SumOfNumbers.sumOfFirstNNumbers(i, sum, number);
+
+	}
+
+	private static void sumOfFirstNNumbers(int i, int sum, int number) {
+
+		if (i > number) {
+			System.out.println(sum);
+			return;
+		}
+		sumOfFirstNNumbers(i + 1, sum + i, number);
+
+	}
+
+}

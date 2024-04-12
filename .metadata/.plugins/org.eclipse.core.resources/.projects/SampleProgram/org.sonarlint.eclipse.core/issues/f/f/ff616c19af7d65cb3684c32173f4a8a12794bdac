@@ -1,0 +1,51 @@
+
+r
+java:S1128"?Remove this unused import 'java.util.stream.Collectors.toList'.(ã‚ºÎ8í‚Š¯ê1HŽjRMINORZ
+CODE_SMELL
+p	java:S106X"9Replace this use of System.out or System.err by a logger.(ß½ê“þÿÿÿÿ8 àý®ê1HÚjRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý8‡†µ¯ê1HájRMAJORZ
+CODE_SMELL
+n	java:S125+"<This block of commented-out lines of code should be removed.(êé‡·8ÝÓ®°ê1HøjRMAJORZ
+CODE_SMELL
+Ÿ
+java:S1130O"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8í‚Š¯ê1HüiRMINORZ
+CODE_SMELL
+Y
+java:S1128"&Remove this unused import 'java.math'.(âî©8í‚Š¯ê1HþiRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'java.security'.(èÛò§8í‚Š¯ê1H€jRMINORZ
+CODE_SMELL
+_
+java:S1128
+",Remove this unused import 'java.util.regex'.(£‘¬Þ8í‚Š¯ê1HˆjRMINORZ
+CODE_SMELL
+b
+java:S1128	"/Remove this unused import 'java.util.function'.(Üþ’¿8í‚Š¯ê1H†jRMINORZ
+CODE_SMELL
+l
+java:S1118":Add a private constructor to hide the implicit public one.(ŒÅüg8ÞòÔ®ê1HÀiRMAJORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.stream'.(§æÐçøÿÿÿÿ8í‚Š¯ê1HŠjRMINORZ
+CODE_SMELL
+x
+java:S1128"@Remove this unused import 'java.util.stream.Collectors.joining'.(Æñ¿âþÿÿÿÿ8í‚Š¯ê1HŒjRMINORZ
+CODE_SMELL
+n	java:S125&"<This block of commented-out lines of code should be removed.(±ý¥‚8ä—´°ê1HŒkRMAJORZ
+CODE_SMELL
+c
+java:S1128"1Remove this unused import 'java.util.concurrent'.(íÐ¢68í‚Š¯ê1H„jRMINORZ
+CODE_SMELL
+Y
+java:S1128"&Remove this unused import 'java.text'.(ë¼Èí8í‚Š¯ê1H‚jRMINORZ
+CODE_SMELL
+m
+java:S1854$"5Remove this useless assignment to local variable "n".(ÚËâ³üÿÿÿÿ8ÀÅä°ê1H¡kRMAJORZ
+CODE_SMELL
+^
+java:S1481$"&Remove this unused "n" local variable.(ÚËâ³üÿÿÿÿ8ÀÅä°ê1H¢kRMINORZ
+CODE_SMELL
+s	java:S125/"<This block of commented-out lines of code should be removed.(¢ÍÏÆûÿÿÿÿ8ÀÅä°ê1H¤kRMAJORZ
+CODE_SMELL

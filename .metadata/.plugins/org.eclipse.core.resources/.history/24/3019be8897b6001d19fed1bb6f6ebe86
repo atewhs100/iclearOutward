@@ -1,0 +1,13 @@
+package com.leetcode;
+
+public class MajorityElement {
+
+	public List<Integer> majorityElement(int[] nums) {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

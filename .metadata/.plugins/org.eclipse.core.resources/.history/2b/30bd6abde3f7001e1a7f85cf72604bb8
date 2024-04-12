@@ -1,0 +1,17 @@
+package com.strivers.A2Z.recursion;
+
+public class PrintNumbersReverseOrder {
+
+	public static void main(String[] args) {
+
+		int i=1;
+		int number = 7;
+		PrintNumbersReverseOrder.printNumber(number);
+	}
+
+	private static void printNumber(int number) {
+
+		
+	}
+
+}

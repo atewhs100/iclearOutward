@@ -1,0 +1,9 @@
+package com.utils.main;
+
+public class ThrowsMain {
+
+	public static void main(String[] args) {
+		Thread.sleep(1000l);
+	}
+
+}

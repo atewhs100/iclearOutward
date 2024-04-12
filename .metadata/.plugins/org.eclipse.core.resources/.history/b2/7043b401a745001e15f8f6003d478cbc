@@ -1,0 +1,13 @@
+package com.test;
+
+public class EmployeeComparator {
+
+	public static void main(String[] args) {
+
+		Employee employee1 = new Employee("radha", 23, new Address("201301", "Grupeellostarsse"));
+		Employee employee2 = new Employee("amit", 23, new Address("407254", "Prupeellostarsse"));
+		Employee employee3 = new Employee("sonu", 23, new Address("32171", "Prupeellostarsse"));
+		Employee employee4 = new Employee("pappu", 23, new Address("62188", "Grupeellostarsse"));
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.strivers.A2Z.recursion;
+
+public class PrintNumbers {
+
+	//print 1 to N
+	public static void main(String[] args) {
+		PrintNumbers.printNumbers(5);
+	}
+
+	private static void printNumbers(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

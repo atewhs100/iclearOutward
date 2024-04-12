@@ -1,0 +1,39 @@
+package com.java.iclear.util;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RestTemplateUtility<T> {
+
+	@Autowired
+	RestTemplate restTemplate;
+
+	public ResponseEntity<T> get(String uri, Class<T> responseType, Object... code) {
+
+		HttpHeaders headers = getHeaders();
+		HttpEntity<String> httpEntity = new HttpEntity<>(headers);
+		return restTemplate.exchange(uri, HttpMethod.GET, httpEntity, responseType, code);
+
+	}
+
+	private HttpHeaders getHeaders() {
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("content-Type", MediaType.APPLICATION_JSON_VALUE);
+		return headers;
+	}
+	
+	public ResponseEntity<T> get(String uri, Class<T> responseType, Object... code) {
+
+		HttpHeaders headers = getHeaders();
+		HttpEntity<String> httpEntity = new HttpEntity<>(headers);
+		return restTemplate.exchange(uri, HttpMethod.POST, httpEntity, responseType, code);
+
+	}
+
+}

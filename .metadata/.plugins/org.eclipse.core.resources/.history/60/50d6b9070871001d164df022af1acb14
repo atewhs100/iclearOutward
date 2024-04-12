@@ -1,0 +1,9 @@
+package com.java.iclear.util;
+
+public class JwtUtility {
+
+	public JwtUtility() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

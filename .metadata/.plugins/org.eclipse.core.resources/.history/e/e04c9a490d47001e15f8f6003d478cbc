@@ -1,0 +1,77 @@
+package com.test;
+
+/**
+ * Remove Kth element in linkedlist
+ * @author patha
+ *
+ */
+public class LinkedListRemove {
+
+	Node head;
+	
+	static class Node {
+
+		int data;
+		Node next;
+
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		LinkedListRemove linkedList = new LinkedListRemove();
+		
+		linkedList.head = new Node(2);
+		Node first = new Node(3);
+		Node second = new Node(7);
+		
+		linkedList.head.next = first;
+		first.next = second;
+		
+		int count=3;
+	
+		removeKthElement(linkedList, count);
+		
+		printLinkedList(linkedList);
+		
+		
+		
+	}
+
+	
+	private static void removeKthElement(LinkedListRemove linkedList, int count) {
+		
+		Node previous = linkedList.head;
+		Node current = linkedList.head.next;
+		int value = 0;
+		while(count != value) {
+			 previous = current;
+			 current = current.next;
+			
+			System.out.print(current.data +"------->");
+			current = current.next;
+			value++;
+		}
+		
+		System.out.println("null");
+		
+	}
+
+
+	private static void printLinkedList(LinkedListRemove linkedList) {
+
+		Node current = linkedList.head;
+		while(current != null) {
+			
+			System.out.print(current.data +"------->");
+			current = current.next;
+		}
+		
+		System.out.println("null");
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.test;
+
+public class LinkedListImplementation {
+
+	Node head;
+	
+	static class Node {
+
+		int data;
+		Node next;
+
+		public Node(int data, Node next) {
+			this.data = data;
+			this.next = null;
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		LinkedListImplementation linkedList = new LinkedListImplementation();
+		
+		linkedList.head = new Node(2, null);
+		
+	}
+
+}

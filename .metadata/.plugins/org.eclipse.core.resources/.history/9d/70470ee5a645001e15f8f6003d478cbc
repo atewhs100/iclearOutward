@@ -1,0 +1,10 @@
+package com.test;
+
+public class EmployeeComparator {
+
+	public static void main(String[] args) {
+
+		Employee employee1 = new Employee("radha", 23, new Address("201301", "Grupeellostarsse"))
+	}
+
+}

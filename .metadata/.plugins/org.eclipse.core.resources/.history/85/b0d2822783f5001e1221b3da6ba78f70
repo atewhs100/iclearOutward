@@ -1,0 +1,39 @@
+package com.test.interview;
+import java.util.*;
+
+public class SortAndCalculateMoves {
+    public static int calculateMoves(List<Integer> list) {
+        // Sort the list
+        Collections.sort(list);
+
+        // Find the index of the minimum and maximum values
+        int minIndex = 0;
+        int maxIndex = list.size() - 1;
+        int minValue = list.get(minIndex);
+        int maxValue = list.get(maxIndex);
+
+        // Calculate the moves required
+        int moves = 0;
+        while (minIndex < maxIndex && (list.get(0) != minValue || list.get(list.size() - 1) != maxValue)) {
+            if (list.get(0) != minValue) {
+                list.remove(minIndex);
+                list.add(0, minValue);
+                minIndex++;
+            }
+            if (list.get(list.size() - 1) != maxValue) {
+                list.remove(maxIndex);
+                list.add(maxValue);
+                maxIndex--;
+            }
+            moves++;
+        }
+        return moves;
+    }
+
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>(Arrays.asList(3, 1, 5, 2, 4));
+        int moves = calculateMoves(list);
+        System.out.println("Moves required: " + moves);
+        System.out.println("List after sorting and moves: " + list);
+    }
+}

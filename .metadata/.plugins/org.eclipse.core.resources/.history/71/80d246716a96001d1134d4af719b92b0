@@ -1,0 +1,9 @@
+package com.main.java8;
+
+import java.util.function.Predicate;
+
+public class PredicateExample {
+
+	Predicate<String> checkString = s -> s.length() > 6;
+
+}

@@ -1,0 +1,38 @@
+package com.leetcode;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+public class MajorityElement {
+
+	public static List<Integer> majorityElement(int[] nums) {
+
+		List<Integer> lst = new ArrayList<>();
+
+		Map<Integer, Integer> numsMap = new HashMap<>();
+
+		for (int i = 0; i < nums.length; i++) {
+			if (numsMap.containsKey(numsMap.get(nums[i]))) {
+				numsMap.put(nums[i], numsMap.get(nums[i]) + 1);
+			} else {
+				numsMap.put(nums[i], 1);
+			}
+		}
+
+		Iterator<Integer> itr = numsMap.entrySet().iterator();
+
+		return null;
+
+	}
+
+	public static void main(String[] args) {
+		int[] majorityElement = new int[] { 1, 3, 5, 3, 4, 5, 3, 3, 1, 1, 1 };
+		List<Integer> listofMajorIntegers = majorityElement(majorityElement);
+
+		listofMajorIntegers.stream().forEach(x -> System.out.print(x));
+	}
+
+}

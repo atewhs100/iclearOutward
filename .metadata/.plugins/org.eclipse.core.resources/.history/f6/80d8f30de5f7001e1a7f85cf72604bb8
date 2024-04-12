@@ -1,0 +1,14 @@
+package com.strivers.A2Z.recursion;
+
+public class SumOfNumbers {
+
+	public static void main(String[] args) {
+
+		SumOfNumbers.sumOfFirstNNumbers();
+	}
+
+	private static void sumOfFirstNNumbers() {
+		
+	}
+
+}

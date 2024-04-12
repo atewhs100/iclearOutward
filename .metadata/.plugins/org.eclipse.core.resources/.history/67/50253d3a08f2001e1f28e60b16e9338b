@@ -1,0 +1,65 @@
+package com.test.interview;
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+	/*
+	 * Complete the 'getMinNumMoves' function below.
+	 *
+	 * The function is expected to return an INTEGER. The function accepts
+	 * INTEGER_ARRAY blocks as parameter.
+	 */
+
+	public static int getMinNumMoves(List<Integer> blocks) {
+
+		
+	     // Additional condition to ensure blocks[1] < blocks[i] for all (2 <= i <= n)
+        int minBlock = Collections.min(blocks);
+        int maxBlock = Collections.max(blocks);
+        
+        if (blocks.get(0) == minBlock && blocks.get(blocks.size() - 1) == maxBlock) {
+            System.out.println("The block at index 1 is the lightest block and block at index n is heaviest block .Equipment is not good. No swapping required");
+            return 0;
+        }
+        
+		int n = blocks.size();
+		// Sorting the array to easily calculate the number of moves required
+		Collections.sort(blocks);
+
+		int moves = 0;
+		// Counting the number of moves required to form good equipment
+		for (int i = 0; i < n; i++) {
+			moves += Math.abs(i - blocks.get(i));
+		}
+
+		return moves / 2; // Since each swap involves two adjacent blocks
+
+	}
+
+}
+
+public class Test1 {
+	public static void main(String[] args) throws IOException {
+		List<Integer> blocks = new ArrayList<>();
+		blocks.add(2);
+		blocks.add(1);
+		blocks.add(4);
+		blocks.add(3);
+		blocks.add(6);
+		
+	
+		int minMoves = Result.getMinNumMoves(blocks);
+		System.out.println("Minimum moves required: " + minMoves);
+	}
+}

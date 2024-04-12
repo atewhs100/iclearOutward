@@ -1,0 +1,20 @@
+package com.main.java8;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class loopListJava8 {
+	public static void loopListJava8() {
+
+		List<String> list = new ArrayList<>();
+		list.add("A");
+		list.add("B");
+		list.add("C");
+		list.add("D");
+		list.add("E");
+
+		// forEach(Consumer<? super T> action)
+		list.forEach(null);
+	}
+}

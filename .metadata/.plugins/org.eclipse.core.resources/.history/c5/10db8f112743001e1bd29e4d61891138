@@ -1,0 +1,32 @@
+package com.test;
+
+import java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class JavaSmallestNumber {
+
+	public static void main(String[] args) {
+
+		int[] numbers = new int[] { 2, 5, 3, 87, 7, 6, 2 };
+		int[] numbers1 = new int[] { 25, 3, 87, 7, 6, 2 };
+
+		Arrays.stream(numbers).sorted().distinct().skip(1).forEach(x -> System.out.println(x));
+
+		// second smallest
+		System.out.println(Arrays.stream(numbers).sorted().distinct().skip(1).findFirst());
+
+		Set<Integer> hs = Arrays.stream(numbers).boxed().collect(Collectors.toSet());
+		
+		//Arrays.stream(numbers1).filter(hs.contains(numbers1)).coll
+		
+		 Set<Integer> set1 = Arrays.stream(numbers).boxed().collect(Collectors.toSet());
+        Set<Integer> commonIntegers = Arrays.stream(numbers1)
+                .filter(set1::contains)
+                .collect(Collectors.toSet());
+
+				
+
+	}
+
+}

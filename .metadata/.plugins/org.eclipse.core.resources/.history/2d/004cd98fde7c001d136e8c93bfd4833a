@@ -1,0 +1,31 @@
+package com.main.java8;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class FunctionConvertListToMap {
+
+	public static void functionConvertListToMap() {
+		List<Employee> emp = new ArrayList<>();
+		
+		
+		Map<Integer, Employee> map = new HashMap<>();
+		
+		(emp) -> {
+			map.put(emp., null)
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		FunctionConvertListToMap.functionConvertListToMap();
+	}
+
+}
+
+class Employee {
+	Integer id;
+	String name;
+}

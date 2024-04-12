@@ -1,0 +1,23 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(â×êðúÿÿÿÿ8Ó“¯ðµ1Hè^RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÊËõýÿÿÿÿÿ8‘‚„ñµ1Hü^RMAJORZ
+CODE_SMELL
+n	java:S125	"<This block of commented-out lines of code should be removed.(“Žëú8ð’ñµ1Hò_RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(‹„áœ8¥“ñµ1HÉ_RMAJORZ
+CODE_SMELL
+v
+java:S1659">Declare "b" and all following declarations on a separate line.(ûø«Èýÿÿÿÿ8‘‚„ñµ1Hô^RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÊËõýÿÿÿÿÿ8Žå†ñµ1H”_RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÊËõýÿÿÿÿÿ8‘‚„ñµ1Hö^RMAJORZ
+CODE_SMELL
+n	java:S125	"<This block of commented-out lines of code should be removed.(“Žëú8ð’ñµ1Hô_RMAJORZ
+CODE_SMELL
+]
+java:S1481"*Remove this unused "value" local variable.(‘ØºÕ8ð’ñµ1Hð_RMINORZ
+CODE_SMELL
+n	java:S125	"<This block of commented-out lines of code should be removed.(“Žëú8ð’ñµ1Hó_RMAJORZ
+CODE_SMELL

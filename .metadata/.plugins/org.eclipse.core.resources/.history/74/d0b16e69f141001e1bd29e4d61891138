@@ -1,0 +1,43 @@
+package com.test;
+
+public class LinkedListImplementation {
+
+	Node head;
+	
+	static class Node {
+
+		int data;
+		Node next;
+
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		LinkedListImplementation linkedList = new LinkedListImplementation();
+		
+		Node node = new Node(3);
+	
+		linkedList.head = new Node(2);
+		linkedList.head.next = node;
+		
+		printLinkedList(linkedList);
+		
+		
+		
+	}
+
+	private static void printLinkedList(LinkedListImplementation linkedList) {
+
+		Node current = linkedList.head;
+		while(current.next != null) {
+			
+			System.out.println(current.data +"------->");
+		}
+	}
+
+}
